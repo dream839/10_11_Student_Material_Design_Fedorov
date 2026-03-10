@@ -75,6 +75,10 @@ fun studentInformation(
             modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_small)),
             style = MaterialTheme.typography.displayMedium
         )
+        Text(
+            text = stringResource(R.string.years_old, studentAge),
+            style = MaterialTheme.typography.bodyLarge
+        )
     }
 }
 @Composable
